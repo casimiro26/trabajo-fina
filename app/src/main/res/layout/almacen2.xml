@@ -5,6 +5,13 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="3500dp"
+        android:layout_height="2100dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/azul" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -289,9 +296,8 @@
         android:layout_width="60dp"
         android:layout_height="60dp"
         app:srcCompat="@drawable/logoyarowilca"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="49dp"
-        tools:layout_editor_absoluteY="28dpS"
-        tools:ignore="MissingConstraints" />
-
+        tools:layout_editor_absoluteY="20dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
