@@ -31,4 +31,5 @@
     <item name="imageView10" type="id" />
     <item name="imageView11" type="id" />
     <item name="imageView" type="id" />
+    <item name="button10" type="id" />
 </resources>
