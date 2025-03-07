@@ -26,7 +26,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Almacén MPY"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
+        android:textColorLink="#E4DDDD"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -38,7 +39,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Productos en stock"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
+        android:textColorLink="#E4DBDB"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -159,7 +161,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="   Boligrafos"
-        android:textColor="@android:color/black"
+        android:textColor="@color/black"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="@id/product_image"
         app:layout_constraintEnd_toStartOf="@id/quantity_layout"
@@ -174,6 +176,7 @@
         android:layout_height="wrap_content"
         android:text="   Cuadernos"
         android:textColor="@android:color/black"
+        android:textColorLink="#EDDDDD"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@id/quantity_layout"
@@ -293,8 +296,9 @@
             android:id="@+id/btn_decrease"
             android:layout_width="32dp"
             android:layout_height="32dp"
+            android:backgroundTint="@color/gray"
             android:text="-"
-            android:backgroundTint="@color/gray" />
+            android:textColorLink="#EFE6E6" />
 
         <TextView
             android:id="@+id/product_quantity"
@@ -310,7 +314,7 @@
             android:layout_height="32dp"
             android:backgroundTint="@color/gray"
             android:text="+"
-            android:textColorLink="#673AB7" />
+            android:textColorLink="#E8E4F0" />
 
     </LinearLayout>
 
