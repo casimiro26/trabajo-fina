@@ -5,6 +5,13 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="2500dp"
+        android:layout_height="1500dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/azul" />
+    <ImageView
         android:id="@+id/logo"
         android:layout_width="60dp"
         android:layout_height="60dp"
@@ -586,5 +593,7 @@
         tools:layout_editor_absoluteX="379dp"
         tools:layout_editor_absoluteY="674dp"
         tools:ignore="MissingConstraints" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
